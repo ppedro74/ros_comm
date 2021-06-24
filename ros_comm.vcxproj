@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="clients\roscpp\include\ros\advertise_options.h" />
+    <ClInclude Include="clients\roscpp\include\ros\advertise_service_options.h" />
+    <ClInclude Include="clients\roscpp\include\ros\callback_queue.h" />
+    <ClInclude Include="clients\roscpp\include\ros\callback_queue_interface.h" />
+    <ClInclude Include="clients\roscpp\include\ros\common.h" />
+    <ClInclude Include="clients\roscpp\include\ros\connection.h" />
+    <ClInclude Include="clients\roscpp\include\ros\connection_manager.h" />
+    <ClInclude Include="clients\roscpp\include\ros\exceptions.h" />
+    <ClInclude Include="clients\roscpp\include\ros\file_log.h" />
+    <ClInclude Include="clients\roscpp\include\ros\forwards.h" />
+    <ClInclude Include="clients\roscpp\include\ros\init.h" />
+    <ClInclude Include="clients\roscpp\include\ros\internal_timer_manager.h" />
+    <ClInclude Include="clients\roscpp\include\ros\intraprocess_publisher_link.h" />
+    <ClInclude Include="clients\roscpp\include\ros\intraprocess_subscriber_link.h" />
+    <ClInclude Include="clients\roscpp\include\ros\io.h" />
+    <ClInclude Include="clients\roscpp\include\ros\master.h" />
+    <ClInclude Include="clients\roscpp\include\ros\message.h" />
+    <ClInclude Include="clients\roscpp\include\ros\message_deserializer.h" />
+    <ClInclude Include="clients\roscpp\include\ros\names.h" />
+    <ClInclude Include="clients\roscpp\include\ros\network.h" />
+    <ClInclude Include="clients\roscpp\include\ros\node_handle.h" />
+    <ClInclude Include="clients\roscpp\include\ros\param.h" />
+    <ClInclude Include="clients\roscpp\include\ros\parameter_adapter.h" />
+    <ClInclude Include="clients\roscpp\include\ros\poll_manager.h" />
+    <ClInclude Include="clients\roscpp\include\ros\poll_set.h" />
+    <ClInclude Include="clients\roscpp\include\ros\publication.h" />
+    <ClInclude Include="clients\roscpp\include\ros\publisher.h" />
+    <ClInclude Include="clients\roscpp\include\ros\publisher_link.h" />
+    <ClInclude Include="clients\roscpp\include\ros\ros.h" />
+    <ClInclude Include="clients\roscpp\include\ros\rosout_appender.h" />
+    <ClInclude Include="clients\roscpp\include\ros\service.h" />
+    <ClInclude Include="clients\roscpp\include\ros\service_callback_helper.h" />
+    <ClInclude Include="clients\roscpp\include\ros\service_client.h" />
+    <ClInclude Include="clients\roscpp\include\ros\service_client_link.h" />
+    <ClInclude Include="clients\roscpp\include\ros\service_client_options.h" />
+    <ClInclude Include="clients\roscpp\include\ros\service_manager.h" />
+    <ClInclude Include="clients\roscpp\include\ros\service_publication.h" />
+    <ClInclude Include="clients\roscpp\include\ros\service_server.h" />
+    <ClInclude Include="clients\roscpp\include\ros\service_server_link.h" />
+    <ClInclude Include="clients\roscpp\include\ros\single_subscriber_publisher.h" />
+    <ClInclude Include="clients\roscpp\include\ros\spinner.h" />
+    <ClInclude Include="clients\roscpp\include\ros\statistics.h" />
+    <ClInclude Include="clients\roscpp\include\ros\steady_timer.h" />
+    <ClInclude Include="clients\roscpp\include\ros\steady_timer_options.h" />
+    <ClInclude Include="clients\roscpp\include\ros\subscriber.h" />
+    <ClInclude Include="clients\roscpp\include\ros\subscriber_link.h" />
+    <ClInclude Include="clients\roscpp\include\ros\subscribe_options.h" />
+    <ClInclude Include="clients\roscpp\include\ros\subscription.h" />
+    <ClInclude Include="clients\roscpp\include\ros\subscription_callback_helper.h" />
+    <ClInclude Include="clients\roscpp\include\ros\subscription_queue.h" />
+    <ClInclude Include="clients\roscpp\include\ros\this_node.h" />
+    <ClInclude Include="clients\roscpp\include\ros\timer.h" />
+    <ClInclude Include="clients\roscpp\include\ros\timer_manager.h" />
+    <ClInclude Include="clients\roscpp\include\ros\timer_options.h" />
+    <ClInclude Include="clients\roscpp\include\ros\topic.h" />
+    <ClInclude Include="clients\roscpp\include\ros\topic_manager.h" />
+    <ClInclude Include="clients\roscpp\include\ros\transport\transport.h" />
+    <ClInclude Include="clients\roscpp\include\ros\transport\transport_tcp.h" />
+    <ClInclude Include="clients\roscpp\include\ros\transport\transport_udp.h" />
+    <ClInclude Include="clients\roscpp\include\ros\transport_hints.h" />
+    <ClInclude Include="clients\roscpp\include\ros\transport_publisher_link.h" />
+    <ClInclude Include="clients\roscpp\include\ros\transport_subscriber_link.h" />
+    <ClInclude Include="clients\roscpp\include\ros\wall_timer.h" />
+    <ClInclude Include="clients\roscpp\include\ros\wall_timer_options.h" />
+    <ClInclude Include="clients\roscpp\include\ros\xmlrpc_manager.h" />
+    <ClInclude Include="clients\roscpp\src\libros\config.h" />
+    <ClInclude Include="utilities\message_filters\include\message_filters\cache.h" />
+    <ClInclude Include="utilities\message_filters\include\message_filters\chain.h" />
+    <ClInclude Include="utilities\message_filters\include\message_filters\connection.h" />
+    <ClInclude Include="utilities\message_filters\include\message_filters\macros.h" />
+    <ClInclude Include="utilities\message_filters\include\message_filters\null_types.h" />
+    <ClInclude Include="utilities\message_filters\include\message_filters\pass_through.h" />
+    <ClInclude Include="utilities\message_filters\include\message_filters\signal1.h" />
+    <ClInclude Include="utilities\message_filters\include\message_filters\signal9.h" />
+    <ClInclude Include="utilities\message_filters\include\message_filters\simple_filter.h" />
+    <ClInclude Include="utilities\message_filters\include\message_filters\subscriber.h" />
+    <ClInclude Include="utilities\message_filters\include\message_filters\synchronizer.h" />
+    <ClInclude Include="utilities\message_filters\include\message_filters\sync_policies\approximate_time.h" />
+    <ClInclude Include="utilities\message_filters\include\message_filters\sync_policies\exact_time.h" />
+    <ClInclude Include="utilities\message_filters\include\message_filters\time_sequencer.h" />
+    <ClInclude Include="utilities\message_filters\include\message_filters\time_synchronizer.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="clients\roscpp\src\libros\callback_queue.cpp" />
+    <ClCompile Include="clients\roscpp\src\libros\common.cpp" />
+    <ClCompile Include="clients\roscpp\src\libros\connection.cpp" />
+    <ClCompile Include="clients\roscpp\src\libros\connection_manager.cpp" />
+    <ClCompile Include="clients\roscpp\src\libros\file_log.cpp" />
+    <ClCompile Include="clients\roscpp\src\libros\init.cpp" />
+    <ClCompile Include="clients\roscpp\src\libros\internal_timer_manager.cpp" />
+    <ClCompile Include="clients\roscpp\src\libros\intraprocess_publisher_link.cpp" />
+    <ClCompile Include="clients\roscpp\src\libros\intraprocess_subscriber_link.cpp" />
+    <ClCompile Include="clients\roscpp\src\libros\io.cpp" />
+    <ClCompile Include="clients\roscpp\src\libros\master.cpp" />
+    <ClCompile Include="clients\roscpp\src\libros\message_deserializer.cpp" />
+    <ClCompile Include="clients\roscpp\src\libros\names.cpp" />
+    <ClCompile Include="clients\roscpp\src\libros\network.cpp" />
+    <ClCompile Include="clients\roscpp\src\libros\node_handle.cpp" />
+    <ClCompile Include="clients\roscpp\src\libros\param.cpp" />
+    <ClCompile Include="clients\roscpp\src\libros\poll_manager.cpp" />
+    <ClCompile Include="clients\roscpp\src\libros\poll_set.cpp" />
+    <ClCompile Include="clients\roscpp\src\libros\publication.cpp" />
+    <ClCompile Include="clients\roscpp\src\libros\publisher.cpp" />
+    <ClCompile Include="clients\roscpp\src\libros\publisher_link.cpp" />
+    <ClCompile Include="clients\roscpp\src\libros\rosout_appender.cpp" />
+    <ClCompile Include="clients\roscpp\src\libros\service.cpp" />
+    <ClCompile Include="clients\roscpp\src\libros\service_client.cpp" />
+    <ClCompile Include="clients\roscpp\src\libros\service_client_link.cpp" />
+    <ClCompile Include="clients\roscpp\src\libros\service_manager.cpp" />
+    <ClCompile Include="clients\roscpp\src\libros\service_publication.cpp" />
+    <ClCompile Include="clients\roscpp\src\libros\service_server.cpp" />
+    <ClCompile Include="clients\roscpp\src\libros\service_server_link.cpp" />
+    <ClCompile Include="clients\roscpp\src\libros\single_subscriber_publisher.cpp" />
+    <ClCompile Include="clients\roscpp\src\libros\spinner.cpp" />
+    <ClCompile Include="clients\roscpp\src\libros\statistics.cpp" />
+    <ClCompile Include="clients\roscpp\src\libros\steady_timer.cpp" />
+    <ClCompile Include="clients\roscpp\src\libros\subscriber.cpp" />
+    <ClCompile Include="clients\roscpp\src\libros\subscriber_link.cpp" />
+    <ClCompile Include="clients\roscpp\src\libros\subscription.cpp" />
+    <ClCompile Include="clients\roscpp\src\libros\subscription_queue.cpp" />
+    <ClCompile Include="clients\roscpp\src\libros\this_node.cpp" />
+    <ClCompile Include="clients\roscpp\src\libros\timer.cpp" />
+    <ClCompile Include="clients\roscpp\src\libros\topic.cpp" />
+    <ClCompile Include="clients\roscpp\src\libros\topic_manager.cpp" />
+    <ClCompile Include="clients\roscpp\src\libros\transport\transport.cpp" />
+    <ClCompile Include="clients\roscpp\src\libros\transport\transport_tcp.cpp" />
+    <ClCompile Include="clients\roscpp\src\libros\transport\transport_udp.cpp" />
+    <ClCompile Include="clients\roscpp\src\libros\transport_publisher_link.cpp" />
+    <ClCompile Include="clients\roscpp\src\libros\transport_subscriber_link.cpp" />
+    <ClCompile Include="clients\roscpp\src\libros\wall_timer.cpp" />
+    <ClCompile Include="clients\roscpp\src\libros\xmlrpc_manager.cpp" />
+    <ClCompile Include="utilities\message_filters\src\connection.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="clients\roscpp\include\ros\common.h.readme.txt" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{e6237450-eb84-4a1a-b3ee-ee693c2ad2db}</ProjectGuid>
+    <RootNamespace>roscomm</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="C:\dev\ROS1\RB.ROS1\RB.ROS1.props" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>
+      </SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>
+      </SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>
+      </SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>
+      </SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

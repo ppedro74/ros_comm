@@ -1,0 +1,5 @@
+common.h 
+
+added by ptp
+
+IN file is an input file referenced by GNU Autoconf when building an application. One or more ".in" or ".h.in" files may be referenced by an Autoconf script (.AC file) when the configure process is run. IN files define variables, such as an app's version number and release date, which are referenced during program installation. IN files may also be used to check for the presence or absence of features in a specific installation.
